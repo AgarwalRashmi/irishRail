@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/Device"],function(e,i){"use strict";return{createDeviceModel:function(){var n=new e(i);n.setDefaultBindingMode("OneWay");return n},createMainModel:function(){var i=new e({imageData:"",task:"",startTime:"",endTime:""});i.setSizeLimit(1e3);return i}}});

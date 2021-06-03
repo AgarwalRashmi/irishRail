@@ -1,0 +1,13 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+		<Schema xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
+			Namespace="capgemini.apps.coe.irishRail_Worker.services.irishRail_Worker">
+			<EntityType Name="WORKORDERSType">
+				<Key><PropertyRef Name="workorder"/></Key><Property Name="workorder" Type="Edm.String" Nullable="false" MaxLength="64"/><Property Name="task" Type="Edm.String" MaxLength="64"/><Property Name="loction" Type="Edm.String" MaxLength="64"/><Property Name="startTime" Type="Edm.String" MaxLength="16"/><Property Name="endTime" Type="Edm.String" MaxLength="16"/><Property Name="priority" Type="Edm.String" MaxLength="16"/><Property Name="status" Type="Edm.String" MaxLength="32"/></EntityType>
+			<EntityType Name="WORKORDERS_DESCType">
+				<Key><PropertyRef Name="workorder"/></Key><Property Name="workorder" Type="Edm.String" Nullable="false" MaxLength="64"/><Property Name="locationDetails" Type="Edm.String" MaxLength="32"/><Property Name="jobDetails" Type="Edm.String" MaxLength="64"/><Property Name="nearestStation" Type="Edm.String" MaxLength="32"/><Property Name="trackSector" Type="Edm.String" MaxLength="32"/><Property Name="nearestHospital" Type="Edm.String" MaxLength="64"/><Property Name="jobHazardDetails" Type="Edm.String" MaxLength="256"/></EntityType>
+			<EntityContainer Name="irishRail_Worker" m:IsDefaultEntityContainer="true"><EntitySet Name="WORKORDERS" EntityType="capgemini.apps.coe.irishRail_Worker.services.irishRail_Worker.WORKORDERSType"/><EntitySet Name="WORKORDERS_DESC" EntityType="capgemini.apps.coe.irishRail_Worker.services.irishRail_Worker.WORKORDERS_DESCType"/></EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

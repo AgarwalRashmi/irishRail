@@ -1,0 +1,75 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/hanaxs2",
+      "target": {
+        "type": "destination",
+        "name": "hanaxs2"
+      },
+      "description": "jj7 xsodata service for sap coe page"
+    },
+    {
+      "path": "/faceRecognitionDestination",
+      "target": {
+        "type": "destination",
+        "name": "TotalFaceReco"
+      },
+      "description": "Face Recognition API"
+    },
+    {
+      "path": "/PPE",
+      "target": {
+        "type": "destination",
+        "name": "SafetyPPE"
+      },
+      "description": "SafetyPPE"
+    },
+    {
+      "path": "/CurrentWeather",
+      "target": {
+        "type": "destination",
+        "name": "CurrentWeather"
+      },
+      "description": "CurrentWeather"
+    }
+    
+  ],
+  "sendWelcomeFileRedirect": true
+}

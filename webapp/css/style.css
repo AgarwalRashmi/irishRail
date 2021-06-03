@@ -1,0 +1,279 @@
+.sapMIBar-CTX .sapMTitle {
+    font-weight: 800;
+    text-shadow: none !important;
+    color: #FFFFFF;
+}
+
+.sapMPageHeader .sapMPageHeader {
+    padding: 3px 0px;
+    background-color: #0b417e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.mainContainer-style {
+    /*do not delete*/
+}
+
+.mainContainer-style::after {
+    content: "";
+    /*min-height: calc(100vh);*/
+    background-size: cover;
+    opacity: 0.4;
+    background-image: url(../images/train.jpg);
+    top: 0;
+    /*background: rgb(102, 253, 223);*/
+    /*background: linear-gradient(40deg, rgba(102, 253, 223, 1) 0%, rgba(56, 179, 179, 1) 35%, rgba(0, 212, 255, 1) 100%);*/
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.dashboardbackground-style::after {
+    content: "";
+    /*min-height: calc(100vh);*/
+    background-size: cover;
+    opacity: 0.5;
+    background-image: url(../images/rail.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.avatarImage-style {
+    width: 15rem;
+    height: 15rem;
+    background-color: #6fb4bb;
+}
+
+.userDetails-style {
+    margin-top: 35%;
+}
+
+.whiteBackground {
+    background-color: #FFF !important;
+}
+
+.tileText-style .sapMGTHdrTxt>.sapMText {
+    color: #fff !important;
+}
+
+.tileText-styleBlack .sapMGTHdrTxt>.sapMText {
+    color: #000 !important;
+}
+
+.ProductsCard {
+    margin: 20px !important;
+    font-family: Verdana !important;
+    border: none !important;
+    border-radius: 5px;
+    box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.2)
+}
+
+.taskDetailsHeader-style {
+    background-color: #b7d9dd;
+    border-bottom: solid 0.5px #0a5b64;
+}
+
+.imageColor-style {
+    background-color: #0F828F;
+}
+
+.font-style {
+    font-size: 1rem;
+}
+
+.headerFontW-style {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #69340f;
+}
+
+.workOrderBg-style::after {
+    content: "";
+    background-size: cover;
+    opacity: 0.9;
+    background-image: url(../images/track.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.headerFont-style {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.subHeaderFont-style {
+    font-size: 0.7rem;
+    color: grey;
+}
+
+
+/*.sapMWizard.sapMWizardBgStandard .sapMWizardStepContainer {
+    background-color: none !important;
+}*/
+
+
+/*.sapMWizard.sapMWizardBgStandard .sapMWizardStepContainer::after {*/
+
+
+/*    content: "";*/
+
+
+/*    background-size: cover;*/
+
+
+/*    opacity: 0.6;*/
+
+
+/*    background-image: url(../images/bg.png) !important;*/
+
+
+/*    top: 0;*/
+
+
+/*    left: 0;*/
+
+
+/*    bottom: 0;*/
+
+
+/*    right: 0;*/
+
+
+/*    position: absolute;*/
+
+
+/*    z-index: -1;*/
+
+
+/*}*/
+
+.wizardBg-style::after {
+    content: "";
+    background-size: cover;
+    opacity: 0.5;
+    /*background-color: #FFFFFF !important;*/
+    /*background: linear-gradient(40deg, rgba(102, 253, 223, 1) 0%, rgba(56, 179, 179, 1) 35%, rgba(0, 212, 255, 1) 100%);*/
+    background-image: url(../images/bgWizard3.png) !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.sapMWizard.sapMWizardBgStandard .sapMWizardStepContainer {
+    background: transparent!important;
+}
+
+.whiteText {
+    color: white !important;
+}
+
+.genericTileWeather-style .sapMGTHdrContent .sapMGTHdrTxt>.sapMText {
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 2.2rem !important;
+}
+
+.genericTileWeather-style .sapMGTHdrContent .sapMGTSubHdrTxt>.sapMText {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.genericTileschedule-style .sapMGTHdrContent .sapMGTHdrTxt>.sapMText {
+    color: #fff;
+}
+
+.sapMGT {
+    border-radius: 10%;
+    box-shadow: inset 4px -4px 10px rgba(1, 1, 1, 0.4);
+}
+
+.margin9px {
+    margin-top: -9px;
+}
+
+.whiteTextFont {
+    color: white !important;
+    font-size: 0.8rem;
+}
+
+.jobClass {
+    background-color: red !important;
+}
+
+.sapMRb {
+    height: 2rem;
+}
+
+.safetyInstructionsbackground-style::after {
+    content: "";
+    background-size: cover;
+    opacity: 0.9;
+    background-image: url(../images/safetyInstructions.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.safetyPointsstyle {
+    background-color: white;
+    width: fit-content;
+    align-self: center !important;
+}
+
+.safetyPointsstyleHeader {
+    background-color: yellow;
+    width: fit-content;
+    font-size: 1.6rem;
+    lign-self: center !important;
+}
+
+.backgroundCyanColor {
+    background-color: darkcyan;
+}
+
+.sapMWizardProgressNavStep::after {
+    border-bottom: none;
+}
+
+.sapMWizardProgressNavStepTitle {
+    color: white;
+}
+
+.sapMWizard .sapMWizardProgressNav {
+    box-shadow: 17px 10px 0.1rem 0 rgba(0,0,0,0.15), inset 0 -0.0625rem 0 0 #d9d9d9;
+    background-color: #bc8084;
+}
+
+.sapMWizardProgressNavStepTitleContainer {
+    background: none;
+}
+
+.loginStyle::after {
+    content: "";
+    background-size: cover;
+    opacity: 0.9;
+    background-image: url(../images/login.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}

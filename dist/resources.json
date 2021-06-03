@@ -1,0 +1,179 @@
+{
+    "resources": [
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "openui5/camera/library.js"
+        },
+        {
+            "name": "openui5/camera/library-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "openui5/camera/CameraRenderer.js"
+        },
+        {
+            "name": "openui5/camera/CameraRenderer-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "openui5/camera/Camera.js"
+        },
+        {
+            "name": "openui5/camera/Camera-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "model/formatter.js"
+        },
+        {
+            "name": "controller/WorkOrders.controller.js"
+        },
+        {
+            "name": "controller/WorkOrderWizard.controller.js"
+        },
+        {
+            "name": "controller/PasswordLogin.controller.js"
+        },
+        {
+            "name": "controller/LandingPage.controller.js"
+        },
+        {
+            "name": "controller/Dashboard.controller.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "manifest-bundle.zip"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "openui5/camera/library-dbg-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "openui5/camera/CameraRenderer-dbg-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "openui5/camera/Camera-dbg-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/WorkOrders-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/WorkOrderWizard-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/PasswordLogin-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/LandingPage-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Dashboard-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../../../sap-ui-version.json"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "view/camera.fragment.xml"
+        },
+        {
+            "name": "view/WorkOrders.view.xml"
+        },
+        {
+            "name": "view/WorkOrderWizard.view.xml"
+        },
+        {
+            "name": "view/PasswordLogin.view.xml"
+        },
+        {
+            "name": "view/LandingPage.view.xml"
+        },
+        {
+            "name": "view/Dashboard.view.xml"
+        },
+        {
+            "name": "localService/metadata.xml"
+        },
+        {
+            "name": "images/train.jpg"
+        },
+        {
+            "name": "images/track.png"
+        },
+        {
+            "name": "images/todo.png"
+        },
+        {
+            "name": "images/safety.png"
+        },
+        {
+            "name": "images/rail.png"
+        },
+        {
+            "name": "images/medicalEmerg.png"
+        },
+        {
+            "name": "images/me.jpg"
+        },
+        {
+            "name": "images/emergStop.png"
+        },
+        {
+            "name": "images/capLogo.png"
+        },
+        {
+            "name": "images/bg.png"
+        },
+        {
+            "name": "images/announcement.png"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "extended_runnable_file.html"
+        }
+    ]
+}
